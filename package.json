@@ -1,0 +1,32 @@
+{
+  "name": "pleasant-vigorous-bulb",
+  "version": "0.1.0",
+  "description": "A simple Node app built on fastify, instantly up and running. Built to be remixed on Glitch.com.",
+  "main": "server.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "@fastify/formbody": "^7.4.0",
+    "@fastify/static": "^6.12.0",
+    "@fastify/view": "^8.2.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "handlebars": "^4.7.8",
+    "express": "^4.19.2",
+    "node-fetch": "^3.2.6"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/pleasant-vigorous-bulb"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch"
+  ]
+}
+
